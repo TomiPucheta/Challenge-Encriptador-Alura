@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="https://www.aluracursos.com/">
+            <img src="Logo.png" alt="Logo de alura con la inicial da letra a">
+        </a>
+    </header>
+    <main>
+        <section class="input-box">
+            <textarea class="input-texto" cols="18" rows="8" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos.</h6>
+            </div>
+            <div class="botones" class=>
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Encriptar
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Desencriptar
+                </button>
+            </div>
+        </section>       
+        <section class="mensaje-box">
+            <textarea class="mensaje" cols="18" rows="8"></textarea>
+            <button class="copiar">
+                Copiar
+            </button>
+        </section>        
+    </main>
+    <footer>
+        <p>© Copyright Alura - 2022</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
